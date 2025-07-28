@@ -26,6 +26,9 @@ class Controller {
 	public function catalogue() {
 		$this->render('catalogue', 'Catalogue');
 	}
+	public function frame_detail() {
+		$this->render('frame_detail', 'Frame Detail');
+	}
 	public function frames() {
 		$this->render('frames', 'Frames');
 	}

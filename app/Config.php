@@ -1,6 +1,6 @@
 <?php
 define('SITE_NAME', 'ARTRA');
-define('BASE_URL', 'http://localhost/artra-php/');
+define('BASE_URL', 'http://localhost/artra-landing/');
 define('DEFAULT_LAYOUT', 'pages/layouts/main');
 error_reporting(E_ALL);
 ini_set('display_errors', 1);

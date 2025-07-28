@@ -6,6 +6,7 @@ function configureRoutes($router) {
     $router->add('/artists', ['controller' => 'Controller', 'action' => 'artists']);
     $router->add('/how-we-do-it', ['controller' => 'Controller', 'action' => 'hwdi']);
     $router->add('/catalogue', ['controller' => 'Controller', 'action' => 'catalogue']);
+    $router->add('/frame_detail', ['controller' => 'Controller', 'action' => 'frame_detail']);
     $router->add('/frames', ['controller' => 'Controller', 'action' => 'frames']);
     $router->add('/gallery', ['controller' => 'Controller', 'action' => 'gallery']);
     

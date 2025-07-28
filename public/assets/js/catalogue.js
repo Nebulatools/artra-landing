@@ -104,21 +104,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Handle CTA button clicks
-    const ctaButtons = document.querySelectorAll('.cta-button');
+    /* const ctaButtons = document.querySelectorAll('.cta-button');
     ctaButtons.forEach(button => {
         button.addEventListener('click', function(e) {
             e.preventDefault();
             
             const buttonText = this.textContent.trim();
-            showNotification(`${buttonText} clicked`);
+            showNotification(`${buttonText} clicked`); */
             
             // Add your navigation logic here
             // For example:
             // if (buttonText === 'Learn more') {
             //     window.location.href = 'collection-details.php';
             // }
-        });
-    });
+    /*     });
+    }); */
 
     // Notification function
     function showNotification(message) {

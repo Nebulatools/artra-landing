@@ -50,7 +50,7 @@
         <title>ARTRA | <?= $title; ?></title>
         <link rel="stylesheet" href="public/assets/css/style.css">
         <link rel="stylesheet" href="public/assets/css/menu.css">
-        <link rel="stylesheet" href="public/assets/css/catalogue.css">
+        <!-- <link rel="stylesheet" href="public/assets/css/catalogue.css"> -->
         <!-- <link rel="stylesheet" href="public/assets/js/main.js">
         <script src="public/assets/js/cookies.js" defer></script> -->
 		<script src="public/assets/js/menu.js" defer></script>

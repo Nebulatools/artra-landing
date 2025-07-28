@@ -65,7 +65,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 1</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
             <div class="frame-item">
@@ -75,7 +75,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 2</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
             <div class="frame-item">
@@ -85,7 +85,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 3</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
             <div class="frame-item">
@@ -95,7 +95,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 4</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
             <div class="frame-item-2">
@@ -105,7 +105,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 5</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
             <div class="frame-item-2">
@@ -115,7 +115,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 6</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
             <div class="frame-item-2">
@@ -125,7 +125,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 7</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
             <div class="frame-item-2">
@@ -135,7 +135,7 @@
                 <div class="frame-details">
                     <h3 class="frame-title">Frame 8</h3>
                     <p class="frame-description">Description</p><br>
-                    <span class="frame-specs">Specs</span>
+                    <a class="frame-specs" href="<?= BASE_URL; ?>frame_detail">Specs</a>
                 </div>
             </div>
         </div>
@@ -169,7 +169,7 @@
                 <div class="studio-geometric">
                     <img src="public/assets/image/home/svg-02.svg" alt="Left Geo" class="column-image">
                 </div>
-                <button class="cta-button">Learn About Us</button>
+                <a class="cta-button" href="<?= BASE_URL; ?>how-we-do-it">Learn About Us</a>
             </div>
             <div class="studio-right-column">
                 <img src="public/assets/image/home/img-05.png" alt="Framed Work" class="studio-interior-image">
