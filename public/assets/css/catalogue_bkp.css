@@ -1,0 +1,277 @@
+/* Catalogue Accordion Styles */
+
+/* Make catalogue title clickable */
+.catalogue-title {
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+
+.catalogue-title:hover {
+	color: #666;
+}
+
+/* Catalogue item positioning */
+.catalogue-item {
+	position: relative;
+	border-bottom: 1px solid #000000;
+}
+
+.catalogue-header {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 24px 24px 24px 40px;
+	width: 100%;
+	height: 91px;
+}
+
+/* Category content - accordion style */
+.category-content {
+	width: 100%;
+	overflow: hidden;
+	max-height: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	background: #F2F2F2;
+}
+
+.category-content.active {
+	max-height: none;
+	opacity: 1;
+	padding: 20px 0;
+}
+
+/* Collection sections */
+.collection-section {
+	display: flex;
+	width: 100%;
+	margin-bottom: 40px;
+	min-height: 600px;
+	border: 1px solid #000000;
+}
+
+.collection-section.collection-reverse {
+	flex-direction: row-reverse;
+}
+
+.collection-image {
+	flex: 1;
+	display: flex;
+	align-items: stretch;
+}
+
+.background-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.collection-info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	background: #F2F2F2;
+	border-left: 1px solid #000000;
+}
+
+.collection-section.collection-reverse .collection-info {
+	border-left: none;
+	border-right: 1px solid #000000;
+}
+
+.collection-text {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	margin-bottom: 30px;
+}
+
+.collection-intro {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.collection-title {
+	font-family: 'Sohne', sans-serif;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 1em;
+	letter-spacing: -1%;
+	text-transform: uppercase;
+	color: #000000;
+	margin: 0;
+}
+
+.collection-badge {
+	font-family: 'Century Old Style Std', serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1em;
+	color: #000000;
+	margin: 0;
+}
+
+.collection-description {
+	font-family: 'Century Old Style Std', serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.1em;
+	color: #000000;
+	margin: 0;
+}
+
+/* Products grid */
+.products-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	margin-top: 30px;
+}
+
+.product-item {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #000000;
+	background: #F2F2F2;
+}
+
+.product-image {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.product-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.product-details {
+	padding: 16px;
+	border-top: 1px solid #000000;
+	flex-grow: 1;
+}
+
+.product-specs {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.product-name {
+	font-family: 'Sohne', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1em;
+	color: #000000;
+	margin: 0;
+}
+
+.product-desc {
+	font-family: 'Century Old Style Std', serif;
+	font-size: 14px;
+	line-height: 1em;
+	color: #000000;
+	margin: 0;
+}
+
+.product-price {
+	font-family: 'Sohne', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1em;
+	color: #000000;
+	margin: 0;
+}
+
+/* CTA Buttons */
+.cta-button {
+	background: #EDF851;
+	border: 1px solid #000000;
+	font-family: 'Century Old Style Std', serif;
+	font-size: 16px;
+	line-height: 1.1;
+	color: #000000;
+	cursor: pointer;
+	text-align: center;
+	padding: 12px 24px;
+	transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+	background: #E8F442;
+	transform: translateY(-2px);
+}
+
+.learn-more {
+	align-self: flex-start;
+	margin-bottom: 20px;
+}
+
+.quick-view {
+	margin-top: auto;
+	width: 100%;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+	.catalogue-header {
+		padding: 20px;
+		height: auto;
+	}
+	
+	.collection-section {
+		flex-direction: column;
+		min-height: auto;
+	}
+	
+	.collection-section.collection-reverse {
+		flex-direction: column;
+	}
+	
+	.collection-info {
+		padding: 20px;
+		border-left: none;
+		border-top: 1px solid #000000;
+	}
+	
+	.collection-section.collection-reverse .collection-info {
+		border-right: none;
+		border-top: 1px solid #000000;
+	}
+	
+	.collection-title {
+		font-size: 32px;
+	}
+	
+	.products-grid {
+		grid-template-columns: 1fr;
+		gap: 15px;
+	}
+	
+	.product-image {
+		height: 150px;
+	}
+}
+
+@media (max-width: 480px) {
+	.catalogue-header {
+		padding: 15px;
+	}
+	
+	.collection-info {
+		padding: 15px;
+	}
+	
+	.collection-title {
+		font-size: 24px;
+	}
+	
+	.collection-text {
+		gap: 15px;
+		margin-bottom: 20px;
+	}
+}
