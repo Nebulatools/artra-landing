@@ -2,7 +2,7 @@
             <div class="footer-content">
                 <div class="footer-left">
                     <div class="footer-about">
-                        <div class="about-header">
+                        <div class="footer-header">
                             <h3 class="footer-title">Gallery & Framing Studio</h3>
                             <p class="footer-address">Av. José Vasconcelos 621</p>
                         </div>
@@ -16,13 +16,13 @@
                 </div>
                 <div class="footer-right">
                     <div class="footer-links">
-                        <div class="link-group">
+                        <div class="footer-link-group">
                             <a href="<?= BASE_URL; ?>catalogue" class="footer-link">FRAMING STUDIO</a>
                             <a href="<?= BASE_URL; ?>artworks" class="footer-link">ARTWORKS</a>
                             <a href="<?= BASE_URL; ?>artists" class="footer-link">ARTISTS</a>
                             <a href="<?= BASE_URL; ?>gallery" class="footer-link">GALLERY</a>
                         </div>
-                        <div class="link-group">
+                        <div class="footer-link-group">
 			    <a href="<?= BASE_URL; ?>how-we-do-it" class="footer-link">ABOUT</a>
                             <a href="#" class="footer-link">FAQ</a>
                             <a href="#" class="footer-link">CONTACT</a>
